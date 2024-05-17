@@ -14,6 +14,7 @@ routes.get('/users/:id', userController.GetUser)
 routes.post('/messagedelete', controller.DeleteMessages)
 routes.post('/validlogin', ValidLogin, userController.ValidEmail)
 routes.get('/message/:id', controller.GetMsgAll)
+routes.get('/teste', controller.Teste)
 
 
 export default routes

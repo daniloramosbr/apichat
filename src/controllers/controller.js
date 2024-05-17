@@ -77,6 +77,10 @@ async DeleteMessages(req, res) {
 
  }
 
+ Teste(req, res) {
+   res.send('testee')
+ }
+
 }
 
 export default new Controller()

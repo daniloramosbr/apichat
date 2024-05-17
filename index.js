@@ -1,6 +1,6 @@
 import Express, { json } from "express";
-import routes from "./routes/routes.js";
-import { ConnectDB } from "./database/connect.js";
+import routes from "./src/routes/routes.js";
+import { ConnectDB } from "./src/database/connect.js";
 import { configDotenv } from "dotenv";
 
 const dotenv = configDotenv()
